@@ -14,7 +14,32 @@ export default function App() {
         </main>
         <footer className="App-footer">
           {" "}
-          <small>Coded by Jacky Madenfrost</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://jackymadenfrost.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Jacky Madenfrost
+            </a>
+            , open-sourced on{" "}
+            <a
+              href="https://github.com/jackymadenfrost/react-dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub{" "}
+            </a>
+            and hoted on{" "}
+            <a
+              href="https://dreamy-villani-6c93d3.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
